@@ -15,4 +15,4 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-cd "C:\Users\charu\Documents\PhishLens"
+
