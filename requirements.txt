@@ -1,18 +1,8 @@
 
-
-
-
-# PhishLens
-
-A small Streamlit prototype for **URL-text-only** phishing risk analysis. It includes two lightweight classifiers, explanation signals, a held-out evaluation view, and an anonymised human-versus-model comparison screen.
-
-## Run it
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-streamlit run app.py
-```
+streamlit>=1.38,<2
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+matplotlib>=3.9,<4
+joblib>=1.4,<2
 
 
